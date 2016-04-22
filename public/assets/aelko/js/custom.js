@@ -1,8 +1,8 @@
-	var webStuff       = "> Javascript <br>> HTML       <br>> CSS       ";
+	var webStuff       = "> NodeJS     <br>> ThreeJS    <br>> MVC       ";
 	var moreWebStuff   = "> Bootstrap  <br>> jQuery     <br>> Ajax      ";
 	var codeStuff      = "> Java       <br>> PHP        <br>> REST+SOAP ";
 	var moreCodeStuff  = "> C++        <br>> Python     <br>> Git       ";
-	var utilitiesStuff = "> Postgres   <br>> MySQL      <br>> OpenGL";
+	var utilitiesStuff = "> Postgres   <br>> SQL        <br>> MySQL     ";
 	var platformStuff  = "> Heroku     <br>> AWS        <br>> Docker    ";
 	var titleSpeed = -30
 	var speed = -200;
@@ -32,13 +32,13 @@
 	}	
 	var typeTitleFive= function () {
 	      $(".titleFive").typed({
-		strings: ["[UTILITIES]"],
+		strings: ["[DATA]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
 	var typeTitleSix = function () {
 	      $(".titleSix").typed({
-		strings: ["[PLATFORMS]"],
+		strings: ["[UTILITIES]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
