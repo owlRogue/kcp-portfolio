@@ -18,8 +18,12 @@ app.get('/contact', function(request, response) {
   response.render('pages/contact')
 });
 
-app.get('/cool', function(request, response) {
-  response.send(cool());
+app.get('/resume', function(request, response) {
+  response.render('pages/resume')
+});
+
+app.get('/portfolio', function(request, response) {
+  response.render('pages/portfolio')
 });
 
 app.listen(app.get('port'), function() {

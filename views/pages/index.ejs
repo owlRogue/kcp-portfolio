@@ -1,56 +1,324 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!--[if IE 9]>
+<html class="ie9" lang="en">    <![endif]-->
+<!--[if IE 8]>
+<html class="ie8" lang="en">    <![endif]-->
 <head>
-  <% include ../partials/header.ejs %>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name=viewport content="width=device-width, initial-scale=1">
+
+   <title>Alexander Kleinhans</title>
+
+   <meta name="description" content="Gridus vCard HTML Template is the professional responsive personal website template, based on the latest Bootstrap 3">
+   <meta name="keywords" content="html5, template, website, responsive, bootstrap">
+   <meta name="author" content="neuethemes">
+
+   <!-- CSS -->
+   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css"        property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="/assets/vendor/fontawesome/css/font-awesome.min.css"   property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="/assets/vendor/flaticons/flaticon.css"                 property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="/assets/vendor/hover/css/hover-min.css"                property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="/assets/vendor/wow/animate.css"                        property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="/assets/vendor/mfp/css/magnific-popup.css"             property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <!-- Remove this for disable demo panel styles -->
+   <!--<link href="/assets/vendor/styleselector/styleselector.css"        property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>-->
+   <!-- Custom styles -->
+   <link href="/assets/custom/css/style.css"                          property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+
+   <style>
+      #preloader {
+         position: fixed;
+         left: 0;
+         top: 0;
+         z-index: 99999;
+         width: 100%;
+         height: 100%;
+         overflow: visible;
+         background: #666666 url("assets/custom/images/preloader.gif") no-repeat center center; }
+   </style>
+
 </head>
 
-<body>
+<body class="boxed">
 
-  <% include ../partials/nav.ejs %>
+<!--Pre-Loader-->
+<div id="preloader"></div>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Escher Systems</h1>
-    <p>An example app that I'm playing with on Heroku. I'm just messing around right now with this thing.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
+<header>
+
+   <section id="top-navigation" class="container-fluid nopadding">
+
+      <div class="row nopadding ident e-bg-light-texture">
+
+         <!-- Photo -->
+         <a href="#!">
+            <div class="col-md-5 col-lg-4 vc-photo">&nbsp;</div>
+         </a>
+         <!-- /Photo -->
+
+         <div class="col-md-7 col-lg-8 vc-name nopadding">
+            <!-- Name-Position -->
+            <div class="row nopadding name">
+               <div class="col-md-10 name-title"><h2 class="font-accident-two-light uppercase">Alexander Kleinhans</h2></div>
+               <div class="col-md-2 nopadding name-pdf">
+		<a href="AlexanderKleinhans_english.pdf" target="_blank"><i class="flaticon-download149" title="Download CV.pdf"></i></a>
+               </div>
+            </div>
+            <div class="row nopadding position">
+	      <div class="col-sm-2 col-xs-4 position-title">
+		 <div class="titleOne typed"></div>
+		 <div class="typedWebStuff typed"></div>
+	      </div>
+	      <div class="col-sm-2 col-xs-4 position-title">
+		 <div class="titleTwo typed"></div>
+		 <div class="typedMoreWebStuff typed"></div>
+	      </div>
+	      <div class="col-sm-2 col-xs-4 position-title">
+		 <div class="titleThree typed"></div>
+		 <div class="typedCodeStuff typed"></div>
+	      </div>
+	      <div class="col-sm-2 col-xs-4 position-title">
+		 <div class="titleFour typed"></div>
+		 <div class="typedMoreCodeStuff typed"></div>
+	      </div>
+	      <div class="col-sm-2 col-xs-4 position-title">
+		 <div class="titleFive typed"></div>
+		 <div class="typedUtilitiesStuff typed"></div>
+	      </div>
+	      <div class="col-sm-2 col-xs-4 position-title">
+		 <div class="titleSix typed"></div>
+		 <div class="typedPlatformStuff typed"></div>
+	      </div>
+            </div>
+            <!-- /Name-Position -->
+
+	    <% include ../partials/navbar.ejs %>
+
+         </div>
+      </div>
+   </section>
+
+</header>
+
+<!-- Container -->
+<div class="content-wrap">
+
+   <section id="homesection" class="container-fluid nopadding">
+
+      <div class="m-details row nopadding skin">
+
+         <div class="col-md-12 nopadding">
+
+            <div class="row nopadding">
+
+               <div class="col-md-8 nopadding ">
+
+                  <div class="row nopadding">
+
+                     <div class="col-md-12 fullwidth padding-50 wow fadeInDown" data-wow-delay="0.2s" data-wow-offset="10">
+                        <div class="row nopadding">
+                           <h3 class="font-accident-two-normal uppercase">About me</h3>
+                           <div class="quote">
+                              <h5 class="font-accident-one-bold hovercolor uppercase">21 year old, code loving, full-stack geek in Denver CO...</h5>
+                              <div class="dividewhite1"></div>
+                              <p class="small">
+				College student with an obsession for all things Turing complete. Also do web stuff to feed myself.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="divider-dynamic"></div>
+                        <div class="row nopadding">
+                           <div class="col-md-4 infoblock nopadding">
+                              <div class="row">
+                                 <div class="col-sm-1 col-md-3"><i class="flaticon-photo246"></i><div class="dividewhite1"></div></div>
+                                 <div class="col-sm-11 col-md-9 ">
+                                    <h5 class="font-accident-one-bold uppercase">Passionate</h5>
+                                    <p class="small">
+				      Software development is what I love. Nothing matters more to me than the things I build.
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="divider-dynamic"></div>
+                           </div>
+                           <div class="col-md-4 infoblock nopadding">
+                              <div class="row">
+                                 <div class="col-sm-1 col-md-3 "><i class="flaticon-stats47"></i><div class="dividewhite1"></div></div>
+                                 <div class="col-sm-11 col-md-9 ">
+                                    <h5 class="font-accident-one-bold uppercase">Problem Solving</h5>
+				      I love building low-level projects from scrath, and learning by doing things the hard way. 
+                                    <p class="small">
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="divider-dynamic"></div>
+                           </div>
+                           <div class="col-md-4 infoblock nopadding">
+                              <div class="row">
+                                 <div class="col-sm-1 col-md-3"><i class="flaticon-clocks18"></i><div class="dividewhite1"></div></div>
+                                 <div class="col-sm-11 col-md-9">
+                                    <h5 class="font-accident-one-bold uppercase">Self Motivated</h5>
+                                    <p class="small">
+				      As technology evolves, a willingness to learn is key to perfomance and staying up to date. 
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="divider-dynamic"></div>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="col-md-4 personal nopadding l-grey">
+                  <div class="padding-50 wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="10">
+                     <h3 class="font-accident-two-normal uppercase">Personal Info</h3>
+                     <div class="dividewhite2"></div>
+                     <div>
+                        <div class="fullwidth box">
+                           <div class="one"><p class="small font-regular-bold uppercase">Name:</p></div>
+                           <div class="two"><p class="small">Alexander Kleinhans</p></div>
+                        </div>
+                        <div class="fullwidth box">
+                           <div class="one"><p class="small font-regular-bold uppercase text-nowrap">Age:</p></div>
+                           <div class="two"><p class="small">21 years</p></div>
+                        </div>
+                        <div class="fullwidth box">
+                           <div class="one"><p class="small font-regular-bold uppercase">Location:</p></div>
+                           <div class="two"><p class="small">Denver, Co</p></div>
+                        </div>
+                        <div class="fullwidth box">
+                           <div class="one"><p class="small font-regular-bold uppercase">Phone:</p></div>
+                           <div class="two"><p class="small">720 235 2511</p></div>
+                        </div>
+                        <div class="fullwidth box">
+                           <div class="one"><p class="small font-regular-bold uppercase">Email:</p></div>
+                           <div class="two"><p class="small">hireme@aelko.com</p></div>
+                        </div>
+                     </div>
+                     <div class="dividewhite4"></div>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+
+      <div class="row nopadding cyan">
+
+         <div class="col-md-4 pro-experience nopadding height-400">
+            <div class="padding-50 wow fadeInRight" data-wow-delay="0.6s" data-wow-offset="5">
+               <h3 class="font-accident-two-normal uppercase fontcolor-invert">Pro. Experience</h3>
+               <div class="dividewhite2"></div>
+               <div class="experience">
+                  <ul class="">
+                     <li class="date">Fall, 20013 - Spring 2015</li>
+                     <li class="company uppercase">
+                        <a>
+                          University of Colorado, Denver 
+                        </a>
+                     </li>
+                     <li class="position">College Student</li>
+                  </ul>
+                  <ul class="">
+                     <li class="date">04/2010 - 06/2012</li>
+                     <li class="company uppercase">
+                        <a>
+			  Denver Website Repair
+                        </a>
+                     </li>
+                     <li class="position">Web Developer</li>
+                  </ul>
+                  <ul class="">
+                     <li class="date">06/2012 - present</li>
+                     <li class="company uppercase">
+                        <a>
+			  Aelko
+                        </a>
+                     </li>
+                     <li class="position">Independent Freelencer</li>
+                  </ul>
+               </div>
+               <a href="#!"><i class="flaticon-three-1"></i></a>
+            </div>
+         </div>
+
+         <div class="col-md-8 circle-skills nopadding height-400 blue">
+            <div class="padding-50 wow fadeInLeft" data-wow-delay="0.6s" data-wow-offset="5">
+               <h3 class="font-accident-two-normal uppercase fontcolor-invert">My Professional skills</h3>
+               <div class="row">
+                  <div class="col-sm-4 nopadding">
+                     <div class="progressbar" data-animate="false">
+                        <div class="circle font-accident-one-normal fontcolor-invert" data-percent="33.3">
+                           <div></div>
+                           <h4 class="font-accident-one-normal uppercase">WEB DEVELOPMENT</h4>
+                           <p class="small">
+			     From web servers, Restful APIs, to CSS and PHP, I've been doing web for quite a while.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4 nopadding">
+                     <div class="progressbar" data-animate="false">
+                        <div class="circle font-accident-one-normal fontcolor-invert" data-percent="33.4">
+                           <div></div>
+                           <h4 class="font-accident-one-normal uppercase">APPLICATION DEVELOPMENT</h4>
+                           <p class="small">
+			     Building isolated, multi-tierd, containers for, application servers, data-layers and more.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4 nopadding">
+                     <div class="progressbar" data-animate="false">
+                        <div class="circle font-accident-one-normal fontcolor-invert" data-percent="33.3">
+                           <div></div>
+                           <h4 class="font-accident-one-normal uppercase">UNUSUAL PROJECTS</h4>
+                           <p class="small">
+			     Full-stack integration of any project that isn't yet well defined. I like real programming too.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
 </div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started with Node on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
 
-        <li>When Heroku received the source code, it grabbed all the dependencies in the <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-        <li>Check out the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started</a> guide to learn more!</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Testing Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
-</div>
+<% include ../partials/footer.ejs %>
 
+<div id="image-cache" class="hidden"></div>
 
+<!-- JS -->
+<script src="/assets/vendor/jquery/js/jquery-2.2.0.min.js"            type="text/javascript"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"            type="text/javascript"></script>
+<script src="/assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/vendor/isotope/js/isotope.pkgd.min.js"           type="text/javascript"></script>
+<script src="/assets/vendor/mfp/js/jquery.magnific-popup.min.js"      type="text/javascript"></script>
+<script src="/assets/vendor/circle-progress/circle-progress.js"       type="text/javascript"></script>
+<script src="/assets/vendor/waypoints/waypoints.min.js"               type="text/javascript"></script>
+<script src="/assets/vendor/anicounter/jquery.counterup.min.js"       type="text/javascript"></script>
+<script src="/assets/vendor/wow/wow.min.js"                           type="text/javascript"></script>
+<script src="/assets/vendor/pjax/jquery.pjax.js"                      type="text/javascript"></script>
+<script src="https://maps.google.com/maps/api/js"                    type="text/javascript"></script>
+<!-- Remove this for disable demo panel script -->
+<!--<script src="/assets/vendor/styleselector/styleselector.js"           type="text/javascript"></script>-->
+<!-- Custom scripts -->
+<script src="/assets/custom/js/custom.js"                             type="text/javascript"></script>
+<script src="/assets/custom/js/typed.js" type="text/javascript"></script>
+<script src="/assets/aelko/js/custom.js" type="text/javascript"></script>
+<link href="/assets/aelko/css/custom.css"             property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
 </body>
+
 </html>
+

@@ -1,0 +1,83 @@
+.typed-cursor {
+	display: none;
+}
+.typed {
+	font-family: monospace;
+}
+.col-sm-2.col-xs-4 {
+    padding: 8px;
+}
+.col-sm-2.col-xs-4.position-title {
+    padding: 7px !important;
+    background: rgba(0, 0, 0, 0.43) !important;
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.typedHireMe.typed {
+    padding-top: 30px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.extra-square {
+    border: none !important;
+    background: none !important;
+}
+.m-details.row.nopadding.skin {
+    box-shadow: 0px 0px 27px black inset;
+}
+.l-grey {
+    background: url("/public/images/background.png") !important;
+}
+.col-md-4.personal.nopadding.l-grey {
+    box-shadow: 0px 0px 24px black inset;
+}
+li.col-xs-4.col-sm-2.nopadding.menuitem.green {
+    background: #204060 !important;
+}
+li.col-xs-4.col-sm-2.nopadding.menuitem.blue {
+    background: #264d73 !important;
+}
+li.col-xs-4.col-sm-2.nopadding.menuitem.cyan {
+    background: #2d5986 !important;
+}
+li.col-xs-4.col-sm-2.nopadding.menuitem.orange {
+    background: #4080bf !important;
+}
+li.col-xs-4.col-sm-2.nopadding.menuitem.red {
+    background: #336699 !important;
+}
+li.col-xs-4.col-sm-2.nopadding.menuitem.yellow{
+    background: #3973ac!important;
+}
+.row.nopadding.cyan {
+    background: #204060 !important;
+}
+li.date {
+    background: #204060 !important;
+}
+.col-md-8.circle-skills.nopadding.height-400.blue {
+    background: rgba(64, 128, 191, 0.58) !important;
+}
+h5.font-accident-one-bold.hovercolor.uppercase {
+    color: #336699 !important;
+}
+#homesection .m-details .quote {
+    margin: 14px 0;
+    padding-left: 18px;
+    border-left: 2px solid #4080BF;
+}
+#homesection .m-details i::before {
+    font-size: 32px;
+    color: #2D5986;
+    line-height: 32px;
+    margin-left: 14px;
+}
+.col-md-4.personal.nopadding.l-grey {
+    height: 50%;
+}
+#top-navigation .ident .vc-photo {
+    min-height: 360px;
+    background: url("../../custom/images/profilepic1.png");
+}
