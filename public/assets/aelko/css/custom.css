@@ -95,3 +95,6 @@ h5.font-accident-one-bold.hovercolor.uppercase {
 	    height: 441px;
 	}
 }
+.row.nopadding .col-sm-2.col-xs-4.position-title {
+    text-align: left !important;
+}
