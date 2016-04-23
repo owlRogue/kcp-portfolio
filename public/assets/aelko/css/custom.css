@@ -28,7 +28,7 @@
     box-shadow: 0px 0px 27px black inset;
 }
 .l-grey {
-    background: url("/public/images/background.png") !important;
+    background: url("../images/background.png") !important;
 }
 .col-md-4.personal.nopadding.l-grey {
     box-shadow: 0px 0px 24px black inset;
@@ -79,7 +79,6 @@ h5.font-accident-one-bold.hovercolor.uppercase {
 }
 #top-navigation .ident .vc-photo {
     min-height: 360px;
-    background: url("../../custom/images/profilepic1.png");
 }
 @media screen and (min-width: 992px) {
 	.padding-50.wow.fadeInRight {
