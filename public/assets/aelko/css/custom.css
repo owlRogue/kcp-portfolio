@@ -91,3 +91,8 @@ h5.font-accident-one-bold.hovercolor.uppercase {
 	    height: 399px;
 	}
 }
+@media screen and (min-width: 1169px) {
+	.padding-50.wow.fadeInLeft {
+	    height: 441px;
+	}
+}
