@@ -1,26 +1,26 @@
-	var webStuff       = "> NodeJS     <br>> ThreeJS    <br>> MVC       ";
-	var moreWebStuff   = "> Bootstrap  <br>> jQuery     <br>> Ajax      ";
-	var codeStuff      = "> Java       <br>> PHP        <br>> REST+SOAP ";
-	var moreCodeStuff  = "> C++        <br>> Python     <br>> Git       ";
-	var utilitiesStuff = "> Postgres   <br>> SQL        <br>> MySQL     ";
-	var platformStuff  = "> Heroku     <br>> AWS        <br>> Docker    ";
+	var webStuff       = "> Jira       <br>> Git        <br>> SVN       ";
+	var moreWebStuff   = "> Vim	   <br>> SSH        <br>> Screen    ";
+	var codeStuff      = "> AWS        <br>> EC2        <br>> Heroku    ";
+	var moreCodeStuff  = "> Java       <br>> Python     <br>> SQL       ";
+	var utilitiesStuff = "> NodeJS     <br>> Golang     <br>> PHP:(     ";
+	var platformStuff  = "> Postgres   <br>> Redis      <br>> Docker    ";
 	var titleSpeed = -30
 	var speed = -200;
 	var typeTitleOne = function () {
 	      $(".titleOne").typed({
-		strings: ["[WEB]"],
+		strings: ["[AGILE]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
 	var typeTitleTwo= function () {
 	      $(".titleTwo").typed({
-		strings: ["[WEB]"],
+		strings: ["[WORKSPACE]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
 	var typeTitleThree= function () {
 	      $(".titleThree").typed({
-		strings: ["[WEB CODE]"],
+		strings: ["[SERVE]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
@@ -32,13 +32,13 @@
 	}	
 	var typeTitleFive= function () {
 	      $(".titleFive").typed({
-		strings: ["[DATA]"],
+		strings: ["[CODE]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
 	var typeTitleSix = function () {
 	      $(".titleSix").typed({
-		strings: ["[UTILITIES]"],
+		strings: ["[FAVORITES]"],
 		typeSpeed: titleSpeed 
 	      });
 	}	
