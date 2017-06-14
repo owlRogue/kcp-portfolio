@@ -2,7 +2,7 @@
 	var moreWebStuff   = "> Vim	   <br>> SSH        <br>> Screen    ";
 	var codeStuff      = "> AWS        <br>> EC2        <br>> Heroku    ";
 	var moreCodeStuff  = "> Java       <br>> Python     <br>> SQL       ";
-	var utilitiesStuff = "> NodeJS     <br>> Golang     <br>> PHP:(     ";
+	var utilitiesStuff = "> NodeJS     <br>> Golang     <br>> PHP       ";
 	var platformStuff  = "> Postgres   <br>> Redis      <br>> Docker    ";
 	var titleSpeed = -30
 	var speed = -200;
